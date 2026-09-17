@@ -4,7 +4,7 @@ import google.generativeai as genai
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.6-flash"
 
 PROMPT = """Kamu membantu mahasiswa mencatat tugas kuliah dari foto.
 Lihat gambar ini (bisa berupa soal tugas, slide, papan tulis, atau screenshot).
